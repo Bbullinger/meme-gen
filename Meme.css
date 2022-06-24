@@ -1,0 +1,91 @@
+h1, h4 {
+    Text-align: center;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    font-family: 'Raleway', sans-serif, Arial;
+    color: #FF3864;
+    
+
+}
+body {
+    background-color: #2b0e4f;
+}
+
+form {
+    background-color:#c731c2;
+    height:175px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow:2px 3px blue;
+}
+
+label {
+    position:absolute;
+    margin-top:25px;
+    margin-left: 10vw;
+    color: #FFD300
+}
+input {
+    position:relative;
+    width: 40vw;
+    left:30vw;
+    margin-top:25px;
+    margin-left: 25px;
+    background-color:#8730c4;
+    color: #dc90c9
+
+}
+button {
+    right:0px;
+    position:relative;
+    left:66.7vw;
+    margin-top:5px;
+    background-color:#8730c4;
+    color: #FFD300
+}
+button:hover{
+    cursor:pointer;
+}
+#container {
+    margin-top:25px;
+    
+}
+#divImg{
+    position:relative;
+    text-align:center;
+    margin: 5px;
+}
+#divImg:hover {
+    filter: blur(4px);
+    content: 'Testing';
+    cursor: pointer;
+    background-color: gray;
+}
+#divImg, #newImg{
+    position:relative;
+    display:inline-block;
+    text-align:center;
+    
+}
+
+#newTop, 
+#newBottom{
+    position:absolute;
+    display:inline;
+    font-size:35px;
+    font-family: Impact,Arial;
+    color: #f27dfd
+
+}
+
+#newTop{
+    left: 0px;
+}
+
+#newBottom {
+    bottom: 0px;
+    left:0px;
+}
+
+#topBackground{
+    background-color: #335dc4;
+    border-radius: 0px 0px 5px 5px;
+}

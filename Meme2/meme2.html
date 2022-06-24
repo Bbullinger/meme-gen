@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attempt 2</title>
+    <link rel="stylesheet" href="meme2.css">
+</head>
+<body>
+    <h1 class="newFont">Meme Genie</h1>
+    <h4 class="newFont">Your meme is my command</h4>
+    <form>
+        <div id="savedIMGs">
+            <span id="savedIMGsText">Img History</span>
+        </div>
+        <label for="URL" class="formInput newFont" >URL</label>
+        <input type="text" placeholder="Paste URL here" id="URL">
+        <br>
+        <label for="topText" class="formInput newFont">Top Text</label>
+        <input type="text" placeholder="Top text" id="topText">
+        <br>
+        <label for="bottomText" class="formInput newFont" >Bottom Text</label>
+        <input type="text" placeholder="Bottom Text" id="bottomText">
+        
+        
+        <div id="buttons">
+            <label for="fontSize" id="fontSizeLabel" class="newFont">Font Size</label>
+            <input type="color" value="black" id="color">
+            <input type="range" min="10" max="50" value="30" id="fontSize">
+            <button type="submit">Grant Your Wish</button>
+        </div>
+    </form>
+    <div id="memeContainer"></div>
+    <script src="meme2.js"></script>
+</body>
+</html>
